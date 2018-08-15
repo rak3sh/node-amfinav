@@ -19,12 +19,13 @@
   "bugs": {
     "url": "http://github.com/svoorakk/node-amfinav/issues"
   },
-  "license" : "SEE LICENSE IN LICENSE.txt", 
+  "license": "SEE LICENSE IN LICENSE.txt",
   "engines": [
     "node : *"
   ],
   "main": "amfi.js",
   "dependencies": {
+    "lodash": "^4.17.10"
   },
   "scripts": {
     "test": "node tests/amfiTest.js"
